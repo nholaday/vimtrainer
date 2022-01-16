@@ -57,6 +57,7 @@ vim2 = {
     "Open file hi.txt for editing": ":e hi.txt",
     "Previous buffer": "ctl-o",
     "Next buffer": "ctl-i",
+    "Replace word with yanked word": "ciwctl-r0",
 }
 
 terminal1 = {
@@ -138,6 +139,14 @@ terminal4 = {
     "Go to end of file using less": "shift-f",
     "Continue editing current shell line in an editor": "ctl-x-e",
     "cat argument from previous command": "cat !$",
+}
+
+terminal5 = {
+    "ssh into control2 forwarding your key": "ssh -A control2",
+    "list active ssh keys": "ssh-add -l",
+    "copy /temp.py from control2 to current directory": "scp control2:/temp.py .",
+    # systemctl/journalctl
+    # docker/kubectl
 }
 
 tmux = {
